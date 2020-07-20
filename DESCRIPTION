@@ -1,0 +1,13 @@
+Package: dashRenderjson
+Title: Render dicts/json files with Dash
+Version: 0.0.1
+Description: Render dicts/json files with Dash
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/ghandic/dash-renderjson
+BugReports: https://github.com/ghandic/dash-renderjson/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

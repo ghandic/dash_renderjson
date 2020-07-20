@@ -1,0 +1,7 @@
+include dash_renderjson/dash_renderjson.min.js
+include dash_renderjson/dash_renderjson.min.js.map
+include dash_renderjson/metadata.json
+include dash_renderjson/package-info.json
+include README.md
+include LICENSE
+include package.json

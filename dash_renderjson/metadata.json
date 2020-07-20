@@ -1,0 +1,56 @@
+{
+  "src/lib/components/DashRenderjson.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashRenderjson",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The value displayed in the input."
+      },
+      "max_depth": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks.",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
+      "theme": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "{\n        scheme: 'monokai',\n        author: 'wimer hazenberg (http://www.monokai.nl)',\n        base00: '#272822',\n        base01: '#383830',\n        base02: '#49483e',\n        base03: '#75715e',\n        base04: '#a59f85',\n        base05: '#f8f8f2',\n        base06: '#f5f4f1',\n        base07: '#f9f8f5',\n        base08: '#f92672',\n        base09: '#fd971f',\n        base0A: '#f4bf75',\n        base0B: '#a6e22e',\n        base0C: '#a1efe4',\n        base0D: '#66d9ef',\n        base0E: '#ae81ff',\n        base0F: '#cc6633'\n    }",
+          "computed": false
+        }
+      },
+      "invert_theme": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      }
+    }
+  }
+}
